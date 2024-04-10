@@ -1,0 +1,17 @@
+{
+  "name": "ui-tests",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "cucumber-js features/register.feature features/login.feature features/customInstruction.feature features/user.feature features/chat.feature"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^2.1.0",
+    "chromedriver": "^123.0.1",
+    "cucumber": "^6.0.7",
+    "selenium-webdriver": "^4.19.0"
+  }
+}

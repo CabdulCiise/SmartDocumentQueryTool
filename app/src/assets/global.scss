@@ -1,0 +1,36 @@
+$background: #121212;
+$sidebar: #000000;
+$border: #4d4d4d;
+$btn-bg: #38bdf8;
+$btn-color: #000000;
+$responseBubbleBg: #38bdf8;
+$responseBubbleText: #000000;
+$promptBubbleBg: #272727;
+$promptBubbleText: #ffffff;
+
+body {
+  margin: 0;
+  background: $background;
+}
+.p-tabview-header:not(.p-highlight) .p-tabview-header-action {
+  background: transparent;
+  border: 0;
+}
+.p-datatable-wrapper {
+  background: #2b323d;
+}
+.p-button:not(.p-button-text):not(.p-button-danger) {
+  background: $btn-bg;
+  border: darken($btn-bg, 10%);
+  &:hover {
+    background: darken($btn-bg, 10%);
+  }
+}
+.p-button-text:not(.p-button-danger) {
+  padding: 0;
+  color: $btn-bg;
+  font-size: 1.25rem;
+  &:hover {
+    color: darken($btn-bg, 10%);
+  }
+}
