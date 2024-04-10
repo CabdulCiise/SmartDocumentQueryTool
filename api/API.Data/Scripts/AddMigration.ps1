@@ -1,0 +1,1 @@
+dotnet ef migrations add $args[0] -o Migrations -p "API.Data/API.Data.csproj" -s "API.Web/API.Web.csproj" -c ApiContext

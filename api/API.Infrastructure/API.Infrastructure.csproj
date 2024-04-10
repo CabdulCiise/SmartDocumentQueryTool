@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="LangChain" Version="0.13.0" />
+    <PackageReference Include="LangChain.Databases.Sqlite" Version="0.13.0" />
+    <PackageReference Include="LangChain.Sources.Pdf" Version="0.13.0" />
+    <PackageReference Include="LangChain.Splitters.Abstractions" Version="0.13.0" />
+    <PackageReference Include="LangChain.Splitters.CSharp" Version="0.13.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\API.Core\API.Core.csproj" />
+    <ProjectReference Include="..\API.Data\API.Data.csproj" />
+  </ItemGroup>
+
+</Project>
